@@ -534,8 +534,16 @@ video {
   margin-right: 40px;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.h-6 {
+  height: 1.5rem;
 }
 
 .min-h-\[2px\] {
@@ -548,6 +556,10 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-between {
@@ -579,6 +591,34 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+/*css*/
+
+.active {
+  position: relative;
+  overflow: hidden;
+}
+
+.active span:nth-child(2) {
+  transform: translate(150%);
+  transition: transform 0.3s;
+}
+
+.active span:first-child {
+  transform: rotate(45deg);
+  transition: transform 0.3s;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.active span:last-child {
+  transform: rotate(-45deg);
+  transition: transform 0.3s;
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
 
 @media (max-width: 2660px) {
