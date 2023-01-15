@@ -696,8 +696,9 @@ video {
 }
 
 @media (max-width: 640px) {
-  .sm\:mt-6 {
+  .sm\:my-6 {
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .sm\:block {
