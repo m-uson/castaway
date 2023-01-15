@@ -6,6 +6,7 @@ module.exports = {
 			colors: {
 				"color-b": "#191919",
 				"c-blue": "#118DA8 ",
+				"rg-blue": "rgba(255, 255, 255, 0.7)",
 			},
 			fontFamily: {
 				f: ["DM Sans", "sans-serif"],
@@ -29,6 +30,9 @@ module.exports = {
 
 			sm: { max: "640px" },
 			// => @media (max-width: 640px) { ... }
+
+			mo: { max: "375px" },
+			// => @media (max-width: 375px) { ... }
 		},
 		container: {
 			padding: "10px",

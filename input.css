@@ -48,3 +48,9 @@
 	right: 0;
 	top: 10px;
 }
+
+.button {
+	background: #118da8;
+	border-radius: 5px;
+	padding: 15px 20px;
+}
