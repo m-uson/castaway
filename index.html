@@ -1,64 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/css/style.css" />
+		<title>Castaway</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <title>Castaway</title>
-</head>
-
-<body class="bg-color-b font-f">
-    <header class="my-[50px] sm:my-6">
-        <div class="container">
-            <nav class="flex justify-between items-center">
-                <a href="#"><img class="relative z-10" src="./src/image/logo.svg" /></a>
-                <div id="burger" class="3xl:hidden sm:block cursor-pointer h-6 relative z-10">
-                    <span id="one" class="block min-w-[30px] min-h-[2px] bg-white mb-1"></span>
-                    <span id="two" class="block min-w-[30px] min-h-[2px] bg-white mb-1"></span>
-                    <span id="tree" class="block min-w-[30px] min-h-[2px] bg-white"></span>
-                </div>
-                <ul class="flex sm:hidden">
-                    <li class="mr-[40px]">
-                        <a class="is-active text-[17px] font-normal text-white" href="#">Home</a
-              >
-            </li>
-            <li class="mr-[40px]">
-              <a class="text-[17px] font-normal text-white" href="#"
-                >Episodes</a
-              >
-            </li>
-            <li class="mr-[40px]">
-              <a class="text-[17px] font-normal text-white" href="#">About</a>
-                    </li>
-                    <li>
-                        <a class="text-[17px] font-normal text-white" href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav id="nav-active" class="3xl:hidden sm:block fixed top-[0] left-0 h-[100%] w-[100%] bg-blue-300 translateO">
-                <ul class="mt-20 ml-4 ul">
-                    <li class="mb-2">
-                        <a class="is-active text-[25px] font-normal text-white" href="#">Home</a
-              >
-            </li>
-            <li class="mb-2">
-              <a class="text-[25px] font-normal text-white" href="#"
-                >Episodes</a
-              >
-            </li>
-            <li class="mb-2">
-              <a class="text-[25px] font-normal text-white" href="#">About</a>
-                    </li>
-                    <li>
-                        <a class="text-[25px] font-normal text-white" href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <script src="./src/js/script.js"></script>
-</body>
-
+	<body class="bg-color-b font-f">
+		<header class="my-[50px] sm:my-6">
+			<div class="container">
+				<nav class="flex justify-between items-center">
+					<a href="#"
+						><img class="relative z-10" src="./src/image/logo.svg"
+					/></a>
+					<div
+						id="burger"
+						class="3xl:hidden sm:block cursor-pointer h-6 relative z-10"
+					>
+						<span
+							id="one"
+							class="block min-w-[30px] min-h-[2px] bg-white mb-1"
+						></span>
+						<span
+							id="two"
+							class="block min-w-[30px] min-h-[2px] bg-white mb-1"
+						></span>
+						<span
+							id="tree"
+							class="block min-w-[30px] min-h-[2px] bg-white"
+						></span>
+					</div>
+					<ul class="flex sm:hidden">
+						<li class="mr-[40px]">
+							<a class="is-active text-[17px] font-normal text-white" href="#"
+								>Home</a
+							>
+						</li>
+						<li class="mr-[40px]">
+							<a class="text-[17px] font-normal text-white" href="#"
+								>Episodes</a
+							>
+						</li>
+						<li class="mr-[40px]">
+							<a class="text-[17px] font-normal text-white" href="#">About</a>
+						</li>
+						<li>
+							<a class="text-[17px] font-normal text-white" href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<nav
+					id="nav-active"
+					class="3xl:hidden sm:block fixed top-[0] left-0 h-[100%] w-[100%] bg-blue-300 translateO"
+				>
+					<ul class="mt-20 ml-4 ul">
+						<li class="mb-2">
+							<a class="is-active text-[25px] font-normal text-white" href="#"
+								>Home</a
+							>
+						</li>
+						<li class="mb-2">
+							<a class="text-[25px] font-normal text-white" href="#"
+								>Episodes</a
+							>
+						</li>
+						<li class="mb-2">
+							<a class="text-[25px] font-normal text-white" href="#">About</a>
+						</li>
+						<li>
+							<a class="text-[25px] font-normal text-white" href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="my-9">
+			<div class="container flex justify-between items-center sm:flex-col">
+				<img
+					class="max-w-[600px] mr-10 xl:max-w-[500px] lg:max-w-[450px] lg:min-h-[500px] md:max-w-[350px] md:min-h-[400px] sm:max-w-[100%] sm:mr-0 sm:mb-10"
+					src="./src/image/Frame.png"
+				/>
+				<div>
+					<p
+						class="text-[70px] max-w-[600px] font-normal text-white xl:text-[60px] lg:text-[50px] lg:max-w-[480px] md:text-[40px] sm:text-center"
+					>
+						Take your podcast to the next
+						<sapn
+							class="text-[80px] font-bold xl:text-[70px] lg:text-[60px] md:text-[50px]"
+							>Level</sapn
+						>
+					</p>
+					<div class="mt-20 sm:mt-[25px] sm:text-center">
+						<p class="font-normal text-base text-white mb-4">Listen on</p>
+						<div class="flex sm:justify-center">
+							<a class="inline-block mr-4" href="#"
+								><img src="./src/image/spotify.svg"
+							/></a>
+							<a class="inline-block mr-4" href="#"
+								><img src="./src/image/Group.svg"
+							/></a>
+							<a class="inline-block mr-4" href="#"
+								><img src="./src/image/obl.svg"
+							/></a>
+							<a class="inline-block mr-4" href="#"
+								><img src="./src/image/IMAGE.svg"
+							/></a>
+							<a class="inline-block" href="#"
+								><img src="./src/image/wifi.svg"
+							/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="./src/js/script.js"></script>
+	</body>
 </html>

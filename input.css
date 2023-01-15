@@ -5,46 +5,46 @@
 /*css*/
 
 .is-active {
-    color: #118da8;
-    font-weight: 700;
+	color: #118da8;
+	font-weight: 700;
 }
 
 .translateO {
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out;
+	transform: translateY(-100%);
+	transition: transform 0.3s ease-in-out;
 }
 
 .menu-active {
-    transform: translate(0);
-    transition: transform 0.3s ease-in-out;
+	transform: translate(0);
+	transition: transform 0.3s ease-in-out;
 }
 
 .body-lock {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .active {
-    position: relative;
-    overflow: hidden;
+	position: relative;
+	overflow: hidden;
 }
 
 .active span:nth-child(2) {
-    transform: translate(150%);
-    transition: transform 0.3s;
+	transform: translate(150%);
+	transition: transform 0.3s;
 }
 
 .active span:first-child {
-    transform: rotate(45deg);
-    transition: transform 0.3s;
-    position: absolute;
-    right: 0;
-    top: 10px;
+	transform: rotate(45deg);
+	transition: transform 0.3s;
+	position: absolute;
+	right: 0;
+	top: 10px;
 }
 
 .active span:last-child {
-    transform: rotate(-45deg);
-    transition: transform 0.3s;
-    position: absolute;
-    right: 0;
-    top: 10px;
+	transform: rotate(-45deg);
+	transition: transform 0.3s;
+	position: absolute;
+	right: 0;
+	top: 10px;
 }
