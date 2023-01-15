@@ -4,6 +4,25 @@
 
 /*css*/
 
+.is-active {
+    color: #118da8;
+    font-weight: 700;
+}
+
+.translateO {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-active {
+    transform: translate(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.body-lock {
+    overflow: hidden;
+}
+
 .active {
     position: relative;
     overflow: hidden;
