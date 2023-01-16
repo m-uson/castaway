@@ -31,11 +31,14 @@ module.exports = {
 			sm: { max: "640px" },
 			// => @media (max-width: 640px) { ... }
 
+			mos: { max: "425px" },
+			// => @media (max-width: 425px) { ... }
+
 			mo: { max: "375px" },
 			// => @media (max-width: 375px) { ... }
 		},
 		container: {
-			padding: "10px",
+			padding: "30px",
 			overflow: "hidden",
 			center: true,
 		},

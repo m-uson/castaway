@@ -517,8 +517,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .fixed {
@@ -582,6 +582,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .mr-14 {
   margin-right: 3.5rem;
 }
@@ -598,16 +602,12 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
+.ml-7 {
+  margin-left: 1.75rem;
 }
 
 .block {
@@ -664,6 +664,10 @@ video {
 
 .max-w-\[389px\] {
   max-width: 389px;
+}
+
+.max-w-\[650px\] {
+  max-width: 650px;
 }
 
 .cursor-pointer {
@@ -766,6 +770,10 @@ video {
   font-size: 18px;
 }
 
+.text-\[65px\] {
+  font-size: 65px;
+}
+
 .font-normal {
   font-weight: 400;
 }
@@ -860,6 +868,10 @@ video {
     max-width: 500px;
   }
 
+  .xl\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
   .xl\:text-\[60px\] {
     font-size: 60px;
   }
@@ -892,6 +904,10 @@ video {
 
   .lg\:max-w-\[480px\] {
     max-width: 480px;
+  }
+
+  .lg\:max-w-\[400px\] {
+    max-width: 400px;
   }
 
   .lg\:text-\[50px\] {
@@ -964,6 +980,10 @@ video {
     font-size: 30px;
   }
 
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
   .md\:leading-\[40px\] {
     line-height: 40px;
   }
@@ -995,6 +1015,10 @@ video {
     margin-bottom: 1.25rem;
   }
 
+  .sm\:ml-0 {
+    margin-left: 0px;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1011,12 +1035,12 @@ video {
     flex-direction: column;
   }
 
-  .sm\:justify-center {
-    justify-content: center;
+  .sm\:flex-col-reverse {
+    flex-direction: column-reverse;
   }
 
-  .sm\:p-7 {
-    padding: 1.75rem;
+  .sm\:justify-center {
+    justify-content: center;
   }
 
   .sm\:p-6 {
@@ -1042,14 +1066,23 @@ video {
   }
 }
 
+@media (max-width: 425px) {
+  .mos\:text-\[35px\] {
+    font-size: 35px;
+  }
+}
+
 @media (max-width: 375px) {
-  .mo\:px-\[5px\] {
-    padding-left: 5px;
-    padding-right: 5px;
+  .mo\:text-\[28px\] {
+    font-size: 28px;
   }
 
-  .mo\:text-\[35px\] {
-    font-size: 35px;
+  .mo\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .mo\:text-\[25px\] {
+    font-size: 25px;
   }
 
   .mo\:text-\[30px\] {
