@@ -38,7 +38,7 @@ module.exports = {
 			// => @media (max-width: 375px) { ... }
 		},
 		container: {
-			padding: "30px",
+			padding: "10px",
 			overflow: "hidden",
 			center: true,
 		},
