@@ -4,6 +4,12 @@
 
 /*css*/
 
+@layer components {
+	.container {
+		@apply max-w-[1250px];
+	}
+}
+
 .is-active {
 	color: #118da8;
 	font-weight: 700;
